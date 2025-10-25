@@ -1,0 +1,22 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!README.md
+
+# ...and not these folders...
+!perceptron/
+!perceptron/**
+
+# ...but still ignore these in the perceptron folder
+perceptron/__pycache__/
+perceptron/.ipynb_checkpoints/
+perceptron/*.pyc
+perceptron/*.pyo
+perceptron/*.pyd
+perceptron/.Python
+perceptron/env/
+perceptron/venv/
+perceptron/.env
+perceptron/.venv
